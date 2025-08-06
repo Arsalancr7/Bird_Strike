@@ -34,19 +34,19 @@ A **Streamlit** app ties everything together with a user-friendly interface for 
 ---
 
 
-# FAA Bird Strike Prediction System – Architecture
+## Architecture
 
 ```mermaid
 flowchart LR
-    A(["**Data ingestion & cleaning**"]) --> B(["**Exploratory Data Analysis (EDA)**"])
-    B --> C(["**Classification model → Damage level**"])
-    B --> D(["**Regression model → Repair cost**"])
-    C --> E(["**Streamlit app interface**"])
+    A["Data ingestion & cleaning"] --> B["Exploratory Data Analysis (EDA)"]
+    B --> C["Classification model → Damage level"]
+    B --> D["Regression model → Repair cost"]
+    C --> E["Streamlit app interface"]
     D --> E
-    E --> F(["**Docker containerization & AWS deployment**"])
-    B --> G(["**RAG → LLM explanations from data**"])
+    E --> F["Docker containerization & AWS deployment"]
+    B --> G["RAG → LLM explanations from data"]
     G --> E
-
+```
 
 
 ## 📓 Notebooks
