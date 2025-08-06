@@ -42,7 +42,7 @@ A **Streamlit** app ties everything together with a user-friendly interface for 
 - Saves trained model as `models/rf_damage_predictor.pkl`.
 
 ### **Rag_Regress.ipynb**
-- Trains a **Gradient Boosting Regressor** for predicting `COST_REPAIRS`.
+- Trains a **Gradient Boosting Regressor** for predicting `COST_REPAIRS` as models/gbr_repair_cost_model.pkl
 - Implements **RAG pipeline** using LangChain + FAISS.
 - Stores incident records as embeddings in `vectorstore/`.
 
