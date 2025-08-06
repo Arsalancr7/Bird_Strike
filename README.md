@@ -61,7 +61,7 @@ A **Streamlit** app ties everything together with a user-friendly interface for 
 
 ## ⚙️ Installation
 
-```bash
+
 # Clone repo
 git clone https://github.com/Arsalancr7/faa-bird-strike-prediction.git
 cd faa-bird-strike-prediction
