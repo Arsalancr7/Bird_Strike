@@ -7,11 +7,7 @@ A **Streamlit** app ties everything together with a user-friendly interface for 
 
 ## ✨ Features
 
-- **Classification (Random Forest)** → Predicts damage level:
-  - None  
-  - Minor  
-  - Substantial  
-  - Destroyed  
+- **Classification (Random Forest)** → Predicts id damage happens or not
 
 - **Regression (Gradient Boosting Regressor)** → Estimates **repair cost** in USD.
 
@@ -26,7 +22,6 @@ A **Streamlit** app ties everything together with a user-friendly interface for 
 ## 📊 Dataset
 
 - **Source:** [FAA Wildlife Strike Database](https://wildlife.faa.gov/home)
-- **Size:** ~250,000+ records from multiple years.
 - **Example fields:**
   - `INCIDENT_DATE`
   - `AIRPORT`
