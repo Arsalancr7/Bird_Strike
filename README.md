@@ -80,5 +80,4 @@ pip install -r requirements.txt
 
 To launch the Streamlit web application, run the following command in your terminal from the project’s root directory:
 
-```bash
 streamlit run app.py
