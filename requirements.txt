@@ -1,0 +1,9 @@
+streamlit
+joblib
+numpy
+pandas
+scikit-learn==1.6.1
+langchain
+langchain-openai
+langchain-community
+faiss-cpu
