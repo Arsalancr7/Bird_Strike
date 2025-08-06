@@ -74,4 +74,13 @@ venv\Scripts\activate      # Windows
 # Install dependencies
 pip install -r requirements.txt
 
+---
 
+## 🖥 Streamlit App (`app.py`)
+
+- Loads the **classification** and **regression** models.
+- Loads **FAISS** vector store.
+- Accepts user input for incident features (date, aircraft type, speed, phase of flight, etc.).
+- Predicts **damage level** & **repair cost**.
+- Retrieves and summarizes similar historical incidents.
+- Displays results with an **LLM-generated explanation**.
