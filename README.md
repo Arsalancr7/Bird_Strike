@@ -74,3 +74,10 @@ venv\Scripts\activate      # Windows
 # Install dependencies
 pip install -r requirements.txt
 
+---
+## 🚀 Running the App
+
+To launch the Streamlit web application, run the following command in your terminal from the project’s root directory:
+
+```bash
+streamlit run app.py
