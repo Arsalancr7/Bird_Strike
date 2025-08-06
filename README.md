@@ -75,6 +75,14 @@ flowchart LR
 
 ---
 
+## 📸 App Screenshots
+
+### Main Interface
+![FAA Bird Strike Predictor - Main](images/main_interface.png)
+
+### Prediction Example
+![FAA Bird Strike Predictor - Prediction](images/prediction_example.png)
+
 ## ⚙️ Installation
 ```bash
 
