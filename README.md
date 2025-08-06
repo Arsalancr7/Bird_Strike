@@ -76,11 +76,9 @@ pip install -r requirements.txt
 
 ---
 
-## 🖥 Streamlit App (`app.py`)
+## 🚀 Running the App
 
-- Loads the **classification** and **regression** models.
-- Loads **FAISS** vector store.
-- Accepts user input for incident features (date, aircraft type, speed, phase of flight, etc.).
-- Predicts **damage level** & **repair cost**.
-- Retrieves and summarizes similar historical incidents.
-- Displays results with an **LLM-generated explanation**.
+To launch the Streamlit web application, run the following command in your terminal from the project’s root directory:
+
+```bash
+streamlit run app.py
